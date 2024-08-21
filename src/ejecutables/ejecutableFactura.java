@@ -4,7 +4,7 @@ import java.util.Iterator;
 
 import domain.Factura;
 
-public class ejecutableFactura {
+public class EjecutableFactura {
 	public static void main(String[] args) {
 		Factura [][] matrizFacturas = new Factura [2][2];
 		double total =0;

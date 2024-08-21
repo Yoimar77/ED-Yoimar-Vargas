@@ -1,6 +1,6 @@
 package ejecutables;
 
-public class EjecutableRecursivo {
+public class EjecutableEjercicioMetodoQuickSort {
 
     // Método público para iniciar el proceso de ordenación
     public static void quickSort(int[] array) {
@@ -49,7 +49,7 @@ public class EjecutableRecursivo {
 
     // Método principal para ejecutar el programa
     public static void main(String[] args) {
-        int[] array = {50, 27, 27, 10, 1, 2, 1,4};
+        int[] array = {50, 27, 27, 10, 1, 2, 1,4,70};
         quickSort(array); // Llama al método quickSort para ordenar el arreglo
         for (int i : array) {
             System.out.print(i + " "); // Imprime el arreglo ordenado
