@@ -1,6 +1,5 @@
 package ejecutables;
 
-import java.util.Iterator;
 
 import domain.Factura;
 
